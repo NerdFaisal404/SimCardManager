@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="54dp"
+    style="@style/listViewActivatedStyle"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/relAction"
+        android:focusable="false"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="marquee"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/listview_item_padding"
+            android:paddingRight="@dimen/listview_item_padding"
+            android:singleLine="true"
+            android:text="@string/defaultText"
+            android:textColor="#000"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtNum"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:paddingBottom="2dp"
+            android:paddingLeft="@dimen/listview_item_padding"
+            android:paddingRight="@dimen/listview_item_padding"
+            android:text="@string/defaultText"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relAction"
+        android:layout_width="104dp"
+        android:layout_height="54dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/text"
+            android:focusable="false"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="0.7dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/btnText"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/call"
+            android:focusable="false"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/cbSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:button="@drawable/checkbox_selector"
+        android:focusable="false"
+        android:height="54dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

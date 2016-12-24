@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="im_ex_arr">
+        <item>Import from SD Card</item>
+        <item>Export to SD Card</item>
+    </string-array>
+
+</resources>

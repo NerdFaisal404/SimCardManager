@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Sim Card Manager.iml" filepath="$PROJECT_DIR$/Sim Card Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lIB_VIEWPAGER_INDICATOR/lIB_VIEWPAGER_INDICATOR.iml" filepath="$PROJECT_DIR$/lIB_VIEWPAGER_INDICATOR/lIB_VIEWPAGER_INDICATOR.iml" />
+    </modules>
+  </component>
+</project>
